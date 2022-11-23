@@ -1,0 +1,23 @@
+class Test
+{
+	void myMethod()
+	{
+		System.out.println("welcome");
+	}
+}
+public class Derived extends Test
+{
+	void myMethod()
+	{
+		System.out.println("HELLO");
+	}
+	
+	public static void main(String[] args)
+	{
+		Derived object = new Test();
+		object.myMethod();
+	}
+}
+
+
+
